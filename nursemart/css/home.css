@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+}
+:root{
+    --backround-color:#ffffff;
+    --text-color:#555;
+    --title-color:#000;
+}
+.dark-theme{
+    --backround-color:#000;
+    --text-color:#999;
+    --title-color:#fff;
+}
+body{
+    background: var(--backround-color);
+    color: var(--text-color);
+    transition: background 0.8s, color 0.8s;
+}
+header{
+    padding-left: 250px;
+    position: relative;
+    overflow: hidden;
+    background-color: #dcbadb;
+}
+.div-logo{
+    padding-left: 35%;
+    padding-top: 4%;
+}
+.div-logo img{
+    margin: 3px;
+    height: 120px;
+    border-radius: 15px;
+}
+.nav-border{
+    overflow: auto;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+nav ul{
+    width: 100%;
+    text-align: right;
+    list-style: none;
+    margin-right: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+header nav{
+    position: relative;
+    float: left;
+    margin: 1em 1em 0 0;
+}
+
+header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header li{
+    display: inline;
+    padding: 0 1em;
+}
+
+header li a{
+    color: #f5f5f5;
+    text-decoration: none;
+}
+.menu{
+    color: white;
+    border-radius: 5px;
+    padding: 0.5em;
+    background: rgb(65, 33, 66)
+}
+.toggle-btn{
+    background: #020824;
+    color: #ffffff;
+    display: flex;
+    float: right;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.toggle-btn img{
+    width: 25px;
+    margin-left: 10px;
+}
+article{
+    margin: 2em;
+    padding: 0 5em 0 5em;
+    color: grey;
+}
+
+.entry{
+    margin: 3em 0 3em 0;
+    overflow: auto;
+    padding: 20px;
+    border: solid 1pt #89057c;
+    border-radius: 1em;
+}
+.right{
+    overflow: auto;
+    text-align: center;
+
+}
+.div-img{
+    text-align: center;
+}
+.div-img img{
+    margin: 10px;
+    height: 200px;
+    max-width: 200px;
+    object-fit: fill;
+    border-radius: 10px;
+}
+.div-img1{
+    overflow: auto;
+    float: top;
+}
+.div-text{
+    padding: 0 5em 0 5em;
+}
+
+.div-img2{
+    overflow: auto;
+    float: top;
+    
+}
+figure{
+    float: left;
+    position: relative;
+    padding: 0 1em;
+
+}
+figcaption{
+    width: 140px;
+    background-color: black;
+    color: white;
+    height: 20px;
+    padding: 5px;
+    position: absolute;
+    bottom: 0px;
+    opacity: 0.7;
+}
+.overlayed{
+    position: absolute;
+    top: 0px;
+    left: 1em;
+}
+
+.div-img1 img{
+    margin: 10px;
+    height: 185px;
+    max-width: 185px;
+    object-fit: fill;
+    border-radius: 10px;
+}
+.div-img2 img{
+    margin: 10px;
+    height: 140px;
+    max-width: 140px;
+    object-fit: fill;
+
+}
+.home-btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.home-btn button{
+    padding: 2px 20px 2px 20px;
+    background: linear-gradient(to right, #89057c, #069bff);
+    border: none;
+    border-radius: 6px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+article{
+    text-align: center;
+    color: gray;
+    height: 600px;
+}
+.div-h{
+    padding: 1em;
+}
+.col-md-6{
+    overflow: auto;
+    float: left;
+    padding-left: 3em;
+}
+#map{
+    height: 450px;
+}
+.contact{
+    overflow: auto;
+    padding-top: 10% ;
+}
+.contact img{
+    margin: 3px;
+    height: 20px;
+}
+.contact p{
+    text-align: center;
+}
+

@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+}
+article{
+    color: gray;
+    padding: 0 22em 0 25em;
+}
+.entry{
+    overflow: auto;
+    margin: 15px;
+    border: solid 1pt #89057c;
+    border-radius: 1em;
+}
+.right{
+    overflow: auto;
+    padding-top: 6%;
+    text-align: center;
+}
+.div-img{
+    overflow: auto;
+    float: left;
+}
+
+article img{
+    margin: 10px;
+    height: 200px;
+    max-width: 200px;
+    object-fit: fill;
+    border-radius: 10px;
+}
+
+.div-text{
+    text-align: center;
+}
+
+.cart{
+    padding: 1px;
+}
+.cart img{
+    margin: 5px;
+    height: 30px;
+    padding-left: 10px;
+    overflow: auto;
+}
+.cart button{
+    padding: 0 20px 0 0;
+    background: linear-gradient(to right, #89057c, #069bff);
+    border: none;
+    border-radius: 6px;
+    color: white;
+}
+.cart button p{
+    padding-left: 5px;
+    overflow: auto;
+    float: right;
+}
+

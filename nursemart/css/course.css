@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+article{
+    text-align: center;
+    color: gray;
+    padding: 0 10em 0 10em;
+}
+.entry{
+    padding: 1em;
+    overflow: auto;
+}
+article img{
+    margin: 10px;
+    height: 200px;
+    border-radius: 10px;
+}
+.div-img{
+    overflow: auto;
+    float: left;
+}
+.div-text{
+    overflow: auto;
+    padding-top: 4%;
+}
+.div-img1{
+    overflow: auto;
+    float: right;
+}
+.div-text1{
+    overflow: auto;
+    padding-top: 4%;
+}

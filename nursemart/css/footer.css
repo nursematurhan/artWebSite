@@ -1,0 +1,59 @@
+footer{
+    color: grey;
+    background-color: #dcbadb;
+    padding: 1em 5em 1em 5em;
+
+}
+.footer-div{
+    overflow: auto;
+    float: left;
+    padding-left: 25%;
+}
+.footer-menu{
+    overflow: auto;
+    float: left;
+    padding-right: 2em;
+    border-right: solid 1pt rgb(62, 9, 87);
+}
+.footer-menu p{
+    text-align: right;
+}
+.footer-menu p a {
+    text-decoration: none;
+    color: grey;
+}
+.footer-logo{
+    overflow: auto;
+    padding-left: 2em;
+    padding-top: 23%;
+}
+.footer-logo img{
+    margin: 3px;
+    height: 20px;
+}
+.footer-sub{
+    overflow: auto;
+    padding-left: 10%;
+    padding-top: 6%;
+}
+.footer-sub input{
+    background-color: #dcbadb;
+    border: none;
+    border-bottom:solid 1pt grey;
+}
+.btn{
+    background: linear-gradient(to right, #89057c, #069bff);
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 30px;
+    outline: none;
+}
+.footer-section{
+    padding-top: 5em;
+}
+.footer-section p{
+    text-align: center;
+}

@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+}
+article{
+    text-align: center;
+    color: gray;
+    padding: 1em 8em 1em 8em;
+}
+article img{
+    margin: 10px;
+    height: 200px;
+    border-radius: 10px;
+}
+

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <div class="div-logo">
+            <a href="home.html" class="logo"><img src="img/first/lightLogo.png" id="logo"></a>
+        </div>
+        <div class="div-border">
+            <ul>
+                <li>
+                    <a href="home.html">HOME</a>
+                </li>
+                <li>
+                    <a href="product.html">PRODUCTS</a>
+                </li>
+                <li>
+                    <a href="course.html">COURSES</a>
+                </li>
+                <li>
+                    <a href="about.html">ABOUT</a>
+                </li>
+                <li>
+                    <a href="contact.html">CONTACT</a>
+                </li>
+                <li class="menu">
+                    <a class="login" href="login.html">Log in / Sign up</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+<article>
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="register()">Sign Up</button>
+            </div>
+            <div class="social-icons">
+                <img src="img/login/fb.png" alt="">
+                <img src="img/login/g.png" alt="">
+                <img src="img/login/Ap.svg" alt="">
+            </div>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="User Name" required>
+                <input type="text" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="chech-box" placeholder="User Name"> <span>Remember Password</span>
+                <button type="submit" class="submit-btn">Log In</button>
+            </form>
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="User Name" required>
+                <input type="email" class="input-field" placeholder="Email" required>
+                <input type="text" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="chech-box" placeholder="User Name"> <span>I agree to the terms & conditions</span>
+                <button type="submit" class="submit-btn">Sign Up</button>
+            </form>
+        </div>
+    </div>
+</article>
+<footer>
+    <div class="footer-div">
+    <div class="footer-menu">
+        <p><a href="home.html">Home</a></p>
+        <p><a href="product.html">Products</a></p>
+        <p><a href="course.html">Courses</a></p>
+        <p><a href="about.html">About Us</a></p>
+        <p><a href="contact.html">Contact</a></p>
+        <p><a class="login" href="login.html">Login/Register</a></p>
+    </div>
+    <div class="footer-logo">
+        <p>Follow us</p>
+        <div>
+            <a href="https://www.linkedin.com/"><img src="img/footer/linkedin.png" alt=""></a> 
+            <a href="https://www.instagram.com/"><img src="img/footer/Instagram.png" alt=""></a> 
+            <a href="https://www.twitter.com/"><img src="img/footer/Twitter.webp" alt=""></a>
+            <a href="https://www.youtube.com/"><img src="img/footer/YouTube.png" alt=""></a>
+        </div>
+    </div>
+</div>
+    <div class="footer-sub">
+            <form action="sub.php" method="POST">
+            <input type = "text" name="name" placeholder="Name" required>
+            <br> <br>
+            <input type="email" name="email" placeholder="Email" required>
+            <br> <br>
+            <button type="submit" class="btn" value="Subscribe">Subscribe</button>
+            </form>
+        </div>
+        <div class="footer-section">
+            <p>&copy; Copyright 2022 Nursema Art.
+        </div>
+</footer>
+    <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("register");
+        var z = document.getElementById("btn");
+
+        function register(){
+            x.style.left ="-400px";
+            y.style.left ="50px";
+            z.style.left ="110px";
+        }
+
+        function login(){
+            x.style.left ="50px";
+            y.style.left ="450px";
+            z.style.left ="0px";
+        }
+    </script>
+</body>
+</html>

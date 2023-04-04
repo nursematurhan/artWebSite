@@ -1,0 +1,33 @@
+header{
+    background-color: #dcbadb;
+    position: relative;
+    overflow:auto;
+}
+header li{
+    display: inline;
+    padding: 0 1em;
+}
+.div-logo{
+    padding-left: 45%;
+    padding-bottom: 20px;
+    padding-top: 4%;
+}
+.div-logo img{
+    margin: 3px;
+    height: 120px;
+    border-radius: 20px;
+}
+.div-border{
+    padding: 10px;
+    padding-left: 23%;
+}
+
+.div-border ul li a{
+    text-decoration: none;
+    color: grey;
+}
+.menu{
+    border-radius: 5px;
+    padding: 0.5em;
+    background: rgb(65, 33, 66)
+}
